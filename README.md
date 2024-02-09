@@ -11,25 +11,25 @@ The project involves collecting historical loan application data available on Ka
 ## Approach:
 The project follows a systematic approach to develop and deploy a predictive model for loan eligibility prediction:
 ### Data Collection: 
-Gathered historical loan application data from Kaggle. [Click here for dataset](https://www.kaggle.com/datasets/vikasukani/loan-eligible-dataset)
+- Gathered historical loan application data from Kaggle. [Click here for dataset](https://www.kaggle.com/datasets/vikasukani/loan-eligible-dataset)
 
-loan-train.csv is used to build model and train it.
+- loan-train.csv is used to build model and train it.
 
-loan-test.csv is used to validate it.
+- loan-test.csv is used to validate it.
 
 ### Data Preprocessing: 
-Dataset is cleaned by handling missing values using mean and mode, normalizing values by calculating log. 
+- Dataset is cleaned by handling missing values using mean and mode, normalizing values by calculating log. 
 
-Performed feature engineering to create new features and transform existing ones. 
+- Performed feature engineering to create new features and transform existing ones. 
 
-Categorical variables are converted to numerical representations using encoding techniques.
+- Categorical variables are converted to numerical representations using encoding techniques.
 
 ### Model Selection: 
-Appropriate machine learning models for loan eligibility prediction is selected such as Decision tree and Naive Bayes Classifier.
+- Appropriate machine learning models for loan eligibility prediction is selected such as Decision tree and Naive Bayes Classifier.
 
 ### Model Training: 
-Dataset is splitted into training and testing sets which is then used to train the model and predict values, which is then used to compare with testing set to calculate accuracy.
+- Dataset is splitted into training and testing sets which is then used to train the model and predict values, which is then used to compare with testing set to calculate accuracy.
 
 ### Testing: 
-The built model is used to predict loan eligibility status for new test data. 1 represents customers are eligible for loan, 0 represents ineligibility.
+- The built model is used to predict loan eligibility status for new test data. 1 represents customers are eligible for loan, 0 represents ineligibility.
    
